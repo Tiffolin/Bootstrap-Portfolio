@@ -1,0 +1,134 @@
+/* Boostrap Assignment CSS page layout */
+    
+* {
+  box-sizing: border-box;
+  text-align: center;
+}
+
+/*Basic layout all pages share*/
+.navbar-header {
+    padding:20px;
+    height:70px;
+    font-family: 'Serif';
+    background-color:#4aaaa5;
+    font-size: 30px;
+    color: white;
+}
+
+.navbar-nav{
+    margin-right:5%;
+    height:15px;
+    width: 30%;
+    font-size:15px;
+    color:gray;
+}
+
+.navbar{
+    width:100%;
+    background-color:#ffffff;
+    border-bottom: 1px solid grey;
+    padding-bottom: 0px;
+    list-style-type: none;
+    margin: 0;
+    padding-top:30px;
+}
+
+
+body {
+    background-image: url(https://www.toptal.com/designers/subtlepatterns/patterns/morocco.png);
+    overflow:auto;
+}
+
+#maincontent {
+
+    height:auto;
+    width: 960px;
+    background:white;
+    border:1px solid gray;
+    overflow:auto;
+    padding-bottom: 60px;
+
+
+    
+}
+
+#h1 {
+    float:left;
+    margin-left: 8px;
+    width: 96%;
+    border-bottom: 1px solid grey;
+    font-family: serif;
+    text-align: left;
+    color: #4aaaa5;
+}
+    
+
+
+/*style content for index.html*/
+#profilepic {
+     float:left;    
+}
+
+
+/*style content for profile.html*/
+.row{    
+    position:relative;
+    float:left;
+    margin:10px;
+}
+
+.box-fluid{
+    clear:both;
+    position:relative;
+    float:left;
+    margin:10px;
+}
+    
+  
+  .img-title{
+    position: absolute;
+    color: #fff;
+    text-align: center;
+    font-size:20px;
+    left: 0;
+    right: 0;
+    bottom: 10%;
+    background-color:#4aaaa5;
+
+  }
+
+
+
+/*Style content for contact.html*/
+.contact-container {
+    font-family: sans-serif;
+    text-align: left;
+    color: grey;  
+}
+
+#Name #Email #Message{
+    position: relative;
+    margin-left: 40px;
+    text-align: left;
+
+}
+
+#btn{
+    background-color:  #4aaaa5; 
+    border: #4aaaa5;
+    color: white;
+}
+
+/*footer*/
+footer{
+    clear:both;
+    position:fixed;
+    bottom: 0;
+    height: 60px;
+    width:100%;
+    margin-top:10px;
+    background-color: #666666;
+    border-top: 8px solid  #4aaaa5;
+    text-align: center bottom;
+    color:white;
+}

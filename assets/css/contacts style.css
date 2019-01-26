@@ -1,0 +1,111 @@
+/* Index page layout */
+/* style idendical throughout rest of the site*/
+
+* {
+  box-sizing: border-box;
+  text-align: center;
+}
+
+
+header {
+    position: fixed;
+    z-index:10;
+    top:0;
+    height: 110px;
+    width:100%;
+    background-color:#ffffff;
+    border-bottom: 1px solid grey;
+}
+
+#topheader {
+  position:fixed;
+  left: 15%;
+  top: 6%;
+  padding: 20px;
+  font-family: 'Serif';
+  background-color:#4aaaa5;
+  font-size: 30px;
+  color: white;
+}
+
+.tags {
+    position: fixed;
+    top: 6%;
+    padding: 20px;
+    font-family:"Serif";
+    color: #777777;
+}
+
+#About {
+    position:fixed;
+    right: 25%;
+    width: 10%;
+    padding: 20px;
+    font-size:15px;  
+}
+
+#Portfolio {
+    position:fixed;
+    right: 15%;
+    width: 10%;
+    padding: 20px;
+    font-size:15px;
+}
+
+#Contact {
+    position:fixed;
+    right: 5%;
+    width: 10%;
+    padding: 20px;
+    font-size:15px;
+}
+
+body {
+    background-image: url(https://www.toptal.com/designers/subtlepatterns/patterns/morocco.png)
+}
+
+div.maincontent {
+    margin-top: 15%;
+    margin-left: 15%;
+    margin-bottom: 80px;
+    height:500px;
+    width: 960px;
+    background:white;
+    border:1px solid gray
+}
+
+h1 {
+    float:left;
+    margin-left: 8px;
+    width: 96%;
+    border-bottom: 1px solid grey;
+    font-family: serif;
+    text-align: left;
+    color: #4aaaa5;
+}
+    
+footer {
+    clear: both;
+    overflow: auto;
+    position: fixed;
+    bottom: 0;
+    height: 60px;
+    width:100%;
+    margin-top:20px;
+    background-color: #666666;
+    border-top: 8px solid  #4aaaa5;
+    text-align: center bottom;
+    color:white;
+}
+
+/*style differs page to page from here forth*/
+
+
+
+.contact-container {
+
+    font-family: sans-serif;
+    text-align: left;
+    color: grey;  
+}
+

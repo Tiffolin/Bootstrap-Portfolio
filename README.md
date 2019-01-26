@@ -1,2 +1,2 @@
-# Bootstrap-Portfolio
-assignment2: Bootstrap-Portfolio
+# Basic-Portfolio
+Basic-Portfolio assignment
